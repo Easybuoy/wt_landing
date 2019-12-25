@@ -143,15 +143,36 @@ nav {
 nav .nav-logo {
   padding-left: 3rem;
 }
+@media only screen and (max-width: 650px) {
+  nav .nav-logo {
+    padding-left: 1rem;
+  }
+}
 nav .nav-logo img {
   width: 150px;
 }
 nav .nav-items {
   padding-right: 3rem;
 }
+@media only screen and (max-width: 650px) {
+  nav .nav-items {
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  nav .nav-items {
+    padding-right: 2rem;
+  }
+}
 nav .nav-items a {
   text-decoration: none;
-  color: #212529;
+  color: #ff8744;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+nav .nav-items .get-started {
+  text-decoration: none;
   color: #ffffff;
   background-color: #ff8744;
   border-radius: 0.1rem;
@@ -160,7 +181,12 @@ nav .nav-items a {
   margin: 0 0.5rem;
   transition: all 0.5s ease-in-out;
 }
-nav .nav-items a:hover {
+@media only screen and (max-width: 400px) {
+  nav .nav-items .get-started {
+    display: none;
+  }
+}
+nav .nav-items .get-started:hover {
   background-color: #ffffff;
   color: #ff8744;
   transform: scale(1.2);

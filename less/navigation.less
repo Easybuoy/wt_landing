@@ -1,6 +1,5 @@
 nav {
   background-color: @white;
-  // border-bottom: 1px solid @primaryColor;
   -webkit-box-shadow: 0px 0px 5px 0px @primaryColor;
   -moz-box-shadow: 0px 0px 5px 0px @primaryColor;
   box-shadow: 0px 0px 5px 0px @primaryColor;
@@ -11,6 +10,10 @@ nav {
   align-items: center;
   .nav-logo {
     padding-left: 3rem;
+
+    @media only screen and (max-width: 650px) {
+      padding-left: 1rem;
+    }
     img {
       width: 150px;
     }
@@ -18,11 +21,24 @@ nav {
 
   .nav-items {
     padding-right: 3rem;
+    @media only screen and (max-width: 650px) {
+      padding-right: 1rem;
+    }
 
-    // .button(@primaryColor, @white, 1rem, 10%);
+    @media only screen and (max-width: 400px) {
+      padding-right: 2rem;
+    }
+
     a {
       text-decoration: none;
-      color: @secondaryColor;
+      color: @primaryColor;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .get-started {
+      text-decoration: none;
       color: @white;
       background-color: @primaryColor;
       border-radius: 0.1rem;
@@ -30,7 +46,11 @@ nav {
       padding: 0.7rem;
       margin: 0 0.5rem;
       transition: all 0.5s ease-in-out;
-      //   .transition(0.2s, 1.2);
+
+      @media only screen and (max-width: 400px) {
+        display: none;
+      }
+
       &:hover {
         background-color: @white;
         color: @primaryColor;
