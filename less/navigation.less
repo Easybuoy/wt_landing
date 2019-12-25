@@ -1,11 +1,41 @@
 nav {
   background-color: @white;
-  border-bottom: 1px solid black;
-
+  // border-bottom: 1px solid @primaryColor;
+  -webkit-box-shadow: 0px 0px 5px 0px @primaryColor;
+  -moz-box-shadow: 0px 0px 5px 0px @primaryColor;
+  box-shadow: 0px 0px 5px 0px @primaryColor;
+  padding: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
   .nav-logo {
+    padding-left: 3rem;
     img {
       width: 150px;
-      //   height: 150px;
+    }
+  }
+
+  .nav-items {
+    padding-right: 3rem;
+
+    // .button(@primaryColor, @white, 1rem, 10%);
+    a {
+      text-decoration: none;
+      color: @secondaryColor;
+      color: @white;
+      background-color: @primaryColor;
+      border-radius: 0.1rem;
+      border: 1px solid @primaryColor;
+      padding: 0.7rem;
+      margin: 0 0.5rem;
+      transition: all 0.5s ease-in-out;
+      //   .transition(0.2s, 1.2);
+      &:hover {
+        background-color: @white;
+        color: @primaryColor;
+        transform: scale(1.2);
+      }
     }
   }
 }
