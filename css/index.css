@@ -444,8 +444,35 @@ header .header-content button {
   align-items: center;
 }
 .testimonials .testimonial-content {
-  width: 45%;
-  border: 1px solid red;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.43);
+  outline: none;
+  border: 0;
+  min-height: 500px;
+}
+.testimonials .testimonial-content h4 {
+  width: 100%;
+  text-align: center;
+  color: #ff8744;
+  margin: 1rem 0;
+}
+.testimonials .testimonial-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+.testimonials .testimonial-content p {
+  line-height: 2;
+  padding: 0 3rem;
+  width: 100%;
+  text-align: center;
+  color: grey;
 }
 .community {
   width: 100%;
