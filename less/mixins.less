@@ -1,25 +1,26 @@
-.button(@textColor, @backgroundColor, @font-size, @width) {
-    color: @textColor;
-    background-color: @backgroundColor;
-    padding: 10px;
-    width: @width;
-    border-radius: 5px;
-    font-size: @font-size;
-    text-align: center;
-    cursor: pointer;
-    .transition(.2s, 1.1);
+.button(@textColor, @backgroundColor, @font-size) {
+  color: @textColor;
+  background-color: @backgroundColor;
+  padding: 10px;
+  // width: @width;
+  border-radius: 5px;
+    border: 1px solid @backgroundColor;
+  outline: none;
+  font-size: @font-size;
+  text-align: center;
+  cursor: pointer;
+  .transition(0.2s, 1.1);
 
-    &:hover {
-        color: @backgroundColor;
-        background-color: @textColor;
-    }
+  &:hover {
+    color: @backgroundColor;
+    background-color: @textColor;
+  }
 }
 
-
 .transition(@time, @scale) {
-    transition: all @time ease-in-out;
+  transition: all @time ease-in-out;
 
-    &:hover {
-        transform: scale(@scale);
-    }
+  &:hover {
+    transform: scale(@scale);
+  }
 }
