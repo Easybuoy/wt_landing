@@ -411,10 +411,12 @@ header .header-content {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 .community .community-stats .community-stats-details h3 {
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #ff8744;
 }
 .community .community-stats .community-stats-details img {
   width: 200px;
@@ -438,6 +440,7 @@ header .header-content {
   color: #ffffff;
 }
 .community .trial-options .trial-options-details .button-group {
+  margin: 1rem 0;
   display: flex;
   justify-content: space-evenly;
 }
