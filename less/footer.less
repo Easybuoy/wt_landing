@@ -8,7 +8,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and @mobile {
     flex-direction: column;
     justify-content: center;
   }
@@ -16,7 +16,7 @@ footer {
     padding-left: 2rem;
     font-family: @secondaryFont;
 
-    @media only screen and (max-width: 450px) {
+    @media only screen and @mobile {
       padding: 2rem 0;
       width: 100%;
       text-align: center;
@@ -27,7 +27,7 @@ footer {
     color: @white;
     padding-right: 2rem;
 
-    @media only screen and (max-width: 450px) {
+    @media only screen and @mobile {
       padding-right: 0;
     }
 
