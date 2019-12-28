@@ -395,6 +395,10 @@ header .header-content {
   padding: 2rem 0;
 }
 .community {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../assets/images/tenor.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
