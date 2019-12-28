@@ -1,5 +1,5 @@
 footer {
-  background-color: black;
+  background-color: @black;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +31,13 @@ footer {
       padding-right: 0;
     }
 
+    i {
+      transition: all 0.4s ease-in-out;
+      &:hover {
+        .transition(0.4s, 1.2);
+      }
+    }
+
     span {
       padding: 0 0.5rem;
     }
@@ -45,7 +52,7 @@ footer {
     .scroll-top {
       cursor: pointer;
       transition: all 0.3s ease-in-out;
-      background-color: black;
+      background-color: @black;
       border-radius: 50%;
       padding: 0.6rem;
       position: fixed;

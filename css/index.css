@@ -332,6 +332,15 @@ footer .socials {
     padding-right: 0;
   }
 }
+footer .socials i {
+  transition: all 0.4s ease-in-out;
+}
+footer .socials i:hover {
+  transition: all 0.4s ease-in-out;
+}
+footer .socials i:hover:hover {
+  transform: scale(1.2);
+}
 footer .socials span {
   padding: 0 0.5rem;
 }
