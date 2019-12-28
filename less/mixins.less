@@ -2,7 +2,6 @@
   color: @textColor;
   background-color: @backgroundColor;
   padding: 1rem;
-//   border-radius: 2rem;
   border-radius: 0.2rem;
   border: 2px solid @textColor;
   outline: none;
@@ -14,7 +13,7 @@
 
   span {
     background-color: @textColor;
-    color: @white;
+    color: @backgroundColor;
     border-radius: 50%;
     box-shadow: rgba(212, 71, 53, 0.24) 0px 8px 15px;
     padding: 0.2rem;
@@ -35,10 +34,39 @@
   }
 }
 
+.button-reverse(@textColor, @backgroundColor, @font-size) {
+  .button(@white, @primaryColor, 1rem);
+  border-radius: 3rem;
+  //   padding: 2rem;
+  //   width: 100%;
+
+  span {
+    background-color: inherit;
+    color: inherit;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+  }
+  &:hover {
+    span {
+      background-color: inherit;
+      color: inherit;
+    }
+  }
+}
+
 .transition(@time, @scale) {
   transition: all @time ease-in-out;
 
   &:hover {
     transform: scale(@scale);
   }
+}
+
+.init(@height: 100vh) {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: @height;
 }

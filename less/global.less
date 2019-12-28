@@ -47,6 +47,28 @@ a {
     url(../assets/images/background-2.jpeg);
 }
 
+.background-3 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url(../assets/images/background-3.jpeg);
+}
+
 .button {
   .button(@primaryColor, @white, 1rem);
+}
+
+.button-reverse {
+  .button-reverse(@white, @primaryColor, 1rem);
+}
+
+h2 {
+  width: 100%;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: @secondaryFont;
+  padding: 2rem 0;
+  text-align: center;
 }
