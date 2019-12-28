@@ -31,7 +31,6 @@ header {
   }
 }
 
-
 .content {
   height: 100vh;
   display: flex;
@@ -48,14 +47,22 @@ header {
       height: 500px;
     }
     border: 2px solid red;
-
   }
 
   .content-detail {
     width: 45%;
     border: 2px solid red;
     min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      width: 100%;
+    }
 
+    .action {
+      // width: 100%;
+    }
   }
-  
 }

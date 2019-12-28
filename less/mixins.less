@@ -1,19 +1,36 @@
 .button(@textColor, @backgroundColor, @font-size) {
   color: @textColor;
   background-color: @backgroundColor;
-  padding: 10px;
-  // width: @width;
-  border-radius: 5px;
-    border: 1px solid @backgroundColor;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 2px solid @textColor;
   outline: none;
   font-size: @font-size;
   text-align: center;
+  font-family: @secondaryFont;
   cursor: pointer;
-  .transition(0.2s, 1.1);
+  .transition(0.3s, 1.05);
+
+  span {
+    background-color: @textColor;
+    color: @white;
+    border-radius: 50%;
+    box-shadow: rgba(212, 71, 53, 0.24) 0px 8px 15px;
+    padding: 0.4rem;
+  }
 
   &:hover {
     color: @backgroundColor;
     background-color: @textColor;
+    transform: translateY(-7px);
+    // -webkit-box-shadow: 0px 0px 5px 0px black;
+    // -moz-box-shadow: 0px 0px 5px 0px black;
+    // box-shadow: 0px 0px 5px 0px black;
+
+    span {
+      background-color: @backgroundColor;
+      color: @textColor;
+    }
   }
 }
 

@@ -129,6 +129,10 @@ table {
 body {
   font-family: 'Roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .background {
   width: 100%;
   background-repeat: no-repeat;
@@ -144,23 +148,36 @@ body {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-2.jpeg);
 }
 .button {
-  color: #ffffff;
-  background-color: #ff8744;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ff8744;
+  color: #ff8744;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 2px solid #ff8744;
   outline: none;
   font-size: 1rem;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+.button span {
+  background-color: #ff8744;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: rgba(212, 71, 53, 0.24) 0px 8px 15px;
+  padding: 0.4rem;
 }
 .button:hover {
-  color: #ff8744;
+  color: #ffffff;
+  background-color: #ff8744;
+  transform: translateY(-7px);
+}
+.button:hover span {
   background-color: #ffffff;
+  color: #ff8744;
 }
 nav {
   background-color: #ffffff;
@@ -268,4 +285,11 @@ header .header-content {
   width: 45%;
   border: 2px solid red;
   min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content .content-detail h2 {
+  width: 100%;
 }
