@@ -394,15 +394,21 @@ header .header-content {
   line-height: 1.5;
   padding: 2rem 0;
 }
-.community {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../assets/images/tenor.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.testimonials {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
+}
+.community {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../assets/images/tenor.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 1rem 0;
 }
 @media only screen and (max-width: 800px) {
