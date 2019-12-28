@@ -306,23 +306,41 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+@media only screen and (max-width: 450px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 footer p {
   padding-left: 2rem;
   font-family: 'Ubuntu', sans-serif;
+}
+@media only screen and (max-width: 450px) {
+  footer p {
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 footer .socials {
   color: #ffffff;
   padding-right: 2rem;
 }
+@media only screen and (max-width: 450px) {
+  footer .socials {
+    padding-right: 0;
+  }
+}
 footer .socials span {
   padding: 0 0.5rem;
 }
-footer .footer-items {
+footer .scroll {
   display: flex;
   align-items: center;
   padding-right: 2.5rem;
 }
-footer .footer-items .scroll-top {
+footer .scroll .scroll-top {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   background-color: black;
@@ -335,6 +353,6 @@ footer .footer-items .scroll-top {
   border: none;
   outline: none;
 }
-footer .footer-items .scroll-top:hover {
+footer .scroll .scroll-top:hover {
   background-color: #ff8744;
 }

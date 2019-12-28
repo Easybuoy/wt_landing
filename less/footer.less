@@ -8,21 +8,35 @@ footer {
   justify-content: space-between;
   align-items: center;
 
+  @media only screen and (max-width: 450px) {
+    flex-direction: column;
+    justify-content: center;
+  }
   p {
     padding-left: 2rem;
     font-family: @secondaryFont;
+
+    @media only screen and (max-width: 450px) {
+      padding: 2rem 0;
+      width: 100%;
+      text-align: center;
+    }
   }
 
   .socials {
     color: @white;
     padding-right: 2rem;
 
+    @media only screen and (max-width: 450px) {
+      padding-right: 0;
+    }
+
     span {
-        padding: 0 0.5rem;
+      padding: 0 0.5rem;
     }
   }
 
-  .footer-items {
+  .scroll {
     display: flex;
     align-items: center;
 
@@ -40,7 +54,6 @@ footer {
       z-index: 99;
       border: none;
       outline: none;
-      //   font-size: 18px;
 
       &:hover {
         background-color: @primaryColor;
