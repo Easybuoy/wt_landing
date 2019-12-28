@@ -401,10 +401,20 @@ header .header-content {
   height: 100vh;
   margin: 1rem 0;
 }
+@media only screen and (max-width: 800px) {
+  .community {
+    height: auto;
+  }
+}
 .community .community-stats {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+}
+@media only screen and (max-width: 800px) {
+  .community .community-stats {
+    flex-direction: column;
+  }
 }
 .community .community-stats .community-stats-details {
   display: flex;
@@ -439,10 +449,20 @@ header .header-content {
   padding: 1rem 0;
   color: #ffffff;
 }
+@media only screen and (max-width: 600px) {
+  .community .trial-options .trial-options-details {
+    width: 95%;
+  }
+}
 .community .trial-options .trial-options-details .button-group {
   margin: 1rem 0;
   display: flex;
   justify-content: space-evenly;
+}
+@media only screen and (max-width: 350px) {
+  .community .trial-options .trial-options-details .button-group button {
+    font-size: 0.8rem;
+  }
 }
 footer {
   background-color: black;
