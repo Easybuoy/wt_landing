@@ -230,6 +230,14 @@ a {
   background-color: inherit;
   color: inherit;
 }
+h1 {
+  width: 100%;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 3rem 0;
+  text-align: center;
+}
 h2 {
   width: 100%;
   font-weight: bolder;
@@ -321,8 +329,16 @@ header .header-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border: 2px solid red;
-  min-height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+header .header-content h4 {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+header .header-content button {
+  margin: 1rem 0;
 }
 .workout {
   width: 100%;
@@ -399,6 +415,12 @@ header .header-content {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.testimonials .testimonial-content {
+  width: 45%;
+  border: 1px solid red;
 }
 .community {
   width: 100%;
