@@ -13,8 +13,20 @@ footer {
     font-family: @secondaryFont;
   }
 
-  .footer-items {
+  .socials {
+    color: @white;
     padding-right: 2rem;
+
+    span {
+        padding: 0 0.5rem;
+    }
+  }
+
+  .footer-items {
+    display: flex;
+    align-items: center;
+
+    padding-right: 2.5rem;
 
     .scroll-top {
       cursor: pointer;
@@ -28,7 +40,7 @@ footer {
       z-index: 99;
       border: none;
       outline: none;
-      font-size: 18px;
+      //   font-size: 18px;
 
       &:hover {
         background-color: @primaryColor;

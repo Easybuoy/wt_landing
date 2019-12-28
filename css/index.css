@@ -310,8 +310,17 @@ footer p {
   padding-left: 2rem;
   font-family: 'Ubuntu', sans-serif;
 }
-footer .footer-items {
+footer .socials {
+  color: #ffffff;
   padding-right: 2rem;
+}
+footer .socials span {
+  padding: 0 0.5rem;
+}
+footer .footer-items {
+  display: flex;
+  align-items: center;
+  padding-right: 2.5rem;
 }
 footer .footer-items .scroll-top {
   cursor: pointer;
@@ -325,7 +334,6 @@ footer .footer-items .scroll-top {
   z-index: 99;
   border: none;
   outline: none;
-  font-size: 18px;
 }
 footer .footer-items .scroll-top:hover {
   background-color: #ff8744;
