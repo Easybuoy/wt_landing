@@ -399,6 +399,7 @@ header .header-content {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
+  margin: 1rem 0;
 }
 .community .community-stats {
   display: flex;
@@ -408,6 +409,16 @@ header .header-content {
 .community .community-stats .community-stats-details {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.community .community-stats .community-stats-details h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.community .community-stats .community-stats-details img {
+  width: 200px;
+  height: 200px;
 }
 .community .trial-options {
   display: flex;
