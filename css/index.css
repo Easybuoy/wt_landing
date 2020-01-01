@@ -148,10 +148,10 @@ a {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-1.jpg);
 }
 .background-2 {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-2.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-2.jpg);
 }
 .background-3 {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-3.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/background-3.jpg);
 }
 .button {
   color: #ff8744;
@@ -328,7 +328,7 @@ header .header-image {
   height: 100%;
   background-size: contain;
   background-position: center;
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/dashboard.png);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../assets/images/dashboard.jpg);
 }
 @media only screen and (max-width: 800px) {
   header .header-image {
