@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
     <title>Track Drills</title>
 
@@ -47,6 +48,8 @@
       ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/index.js"></script>
   </head>
   <body>
     <nav>
@@ -86,10 +89,10 @@
     <div class="background background-1"></div>
 
     <section class="workout">
-      <div class="workout-image">
+      <div class="workout-image" data-aos-duration="2000" data-aos="fade-right">
         <img src="./assets/images/mobile.png" />
       </div>
-      <div class="workout-detail">
+      <div class="workout-detail" data-aos-duration="2000"  data-aos="fade-left">
         <h2>Make workout boredom a thing of the past</h2>
         <h4>
           Stay inspired with unlimited access to thousands of workouts for
@@ -111,8 +114,11 @@
     <section class="testimonials">
       <h2>Testimonials</h2>
 
-      <div class="testimonial-content">
-        <img src="https://ca.slack-edge.com/T4JUEB3ME-UHQMX3CLS-7cbf5b435384-72" alt="Ezekiel" />
+      <div class="testimonial-content" data-aos="fade-up-left" data-aos-duration="2000">
+        <img
+          src="https://ca.slack-edge.com/T4JUEB3ME-UHQMX3CLS-7cbf5b435384-72"
+          alt="Ezekiel"
+        />
 
         <h4>Ezekiel Ekunola</h4>
 
@@ -153,7 +159,7 @@
         </p>
       </div>
 
-      <div class="testimonial-content">
+      <div class="testimonial-content" data-aos="fade-up-right" data-aos-duration="2000">
         <img src="./assets/images/background-1.jpg" alt="img" />
 
         <h4>Ezekiel Ekunola</h4>
@@ -195,7 +201,7 @@
         </div>
       </div>
 
-      <div class="trial-options">
+      <div class="trial-options" data-aos="zoom-in" data-aos-duration="2000">
         <div class="trial-options-details">
           <h2>Platforms</h2>
 
