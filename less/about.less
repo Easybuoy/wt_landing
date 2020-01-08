@@ -25,6 +25,10 @@
     background-color: #f4f4f9;
     padding: 2rem 0;
 
+    @media only screen and (max-width: 950px) {
+      flex-direction: column;
+      height: auto;
+    }
     h2 {
       color: @primaryColor;
     }
@@ -35,10 +39,27 @@
     .content {
       width: 45%;
       line-height: 2;
+      @media only screen and (max-width: 950px) {
+        width: 70%;
+        margin: 1rem 0;
+      }
+
+      @media only screen and (@mobile) {
+        width: 90%;
+      }
     }
 
     .image {
       width: 45%;
+      @media only screen and (max-width: 950px) {
+        width: 70%;
+        margin: 1rem 0;
+      }
+
+      @media only screen and (@mobile) {
+        width: 90%;
+      }
+
       img {
         width: 100%;
       }
