@@ -1,36 +1,67 @@
 .about {
+  h2 {
+    color: @primaryColor;
+  }
+
   header {
-    .init();
-    // background-color: green;
-    // -webkit-clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 20% 100%, 0% 40%);
-    // clip-path: polygon(50% 0%, 100% 40%, 80% 100%, 20% 100%, 0% 40%);
-    // -webkit-clip-path: url('#polygon-clip-pentagon');
-    // clip-path: url('#polygon-clip-pentagon');
-    // padding: 2rem;
+    .init(80vh);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      url(../assets/images/about_header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      color: @primaryColor;
+      text-align: center;
+
+      h1 {
+        font-weight: bolder;
+        font-size: 3rem;
+        width: 100%;
+      }
+
+      h2 {
+        padding: 0 3rem;
+
+      }
+      h3 {
+        font-size: 1.2rem;
+        // margin: 2rem 0;
+        width: 100%;
+      }
+
+      div {
+        // margin-top: 2rem;
+        // margin-bottom: 3rem;
+        width: 100%;
+      }
+    }
   }
 
   .values {
     .init();
-  }
-
-  .staff {
-    .init();
-    border: 1px solid blue;
+    background-color: #f4f4f9;
   }
 
   .culture {
     .init();
     justify-content: space-around;
     align-items: center;
-    background-color: #f4f4f9;
+
     padding: 2rem 0;
 
     @media only screen and (max-width: 950px) {
       flex-direction: column;
       height: auto;
-    }
-    h2 {
-      color: @primaryColor;
     }
 
     h4 {
@@ -64,5 +95,10 @@
         width: 100%;
       }
     }
+  }
+
+  .staff {
+    .init();
+    border: 1px solid blue;
   }
 }
