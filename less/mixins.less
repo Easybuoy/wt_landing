@@ -11,14 +11,6 @@
   cursor: pointer;
   .transition(0.3s, 1.05);
 
-  span {
-    background-color: @textColor;
-    color: @backgroundColor;
-    border-radius: 50%;
-    box-shadow: rgba(212, 71, 53, 0.24) 0px 8px 15px;
-    padding: 0.2rem;
-  }
-
   &:hover {
     color: @backgroundColor;
     background-color: @textColor;
@@ -34,14 +26,7 @@
 .button-reverse(@textColor, @backgroundColor, @font-size) {
   .button(@white, @primaryColor, 1rem);
   border-radius: 3rem;
-  span {
-    background-color: inherit;
-    color: inherit;
-    border-radius: 0;
-    border: 0;
-    outline: none;
-    box-shadow: none;
-  }
+
   &:hover {
     span {
       background-color: inherit;
