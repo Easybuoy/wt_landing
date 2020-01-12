@@ -139,9 +139,26 @@
     }
   }
 
-  .staff {
-    .init();
+  .staffs {
+    .init(auto);
     background-color: #f4f4f9;
+    justify-content: space-evenly;
+    .staff {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      width: 20%;
+      margin: 1rem;
+
+      img {
+        width: 100%;
+        height: 200px;
+      }
+
+      h3,
+      h4 {
+        margin: 1rem;
+        text-align: center;
+      }
+    }
   }
 
   .careers {
