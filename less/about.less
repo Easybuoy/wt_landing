@@ -100,9 +100,6 @@
       color: @white;
       justify-content: space-evenly;
 
-      // @media only screen and (max-width: 950px) {
-      //   padding: 3rem 0;
-      // }
       .culture-details-entity {
         display: flex;
         flex-wrap: wrap;
@@ -145,18 +142,28 @@
     justify-content: space-evenly;
     .staff {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      width: 20%;
+      width: 22%;
       margin: 1rem;
 
       img {
         width: 100%;
-        height: 200px;
+        height: 250px;
       }
 
-      h3,
+      h3 {
+        margin: 1rem;
+        text-align: center;
+        color: #343741;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        font-family: @primaryFont;
+      }
+
       h4 {
         margin: 1rem;
         text-align: center;
+        font-family: @secondaryFont;
+        color: @primaryColor;
       }
     }
   }
