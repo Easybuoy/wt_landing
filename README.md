@@ -11,14 +11,13 @@ Trackdrills is a web application that gives you access to over 500 workout and e
 - [Scripts](#scripts)
   - [Running](#running)
 - [Tech-Stack](#tech-stack)
-  - [Front-End Dependencies `(Production)`](#front-end-dependencies-production)
+  - [Dependencies](#dependencies)
     - [Html](#html)
     - [Less](#Less)
-    Components](#styled-components)
-    - [Chakra-UI](#chakra-ui)
-    - [Prop-Types](#prop-types)
-    - [JWT-Decode](#jwt-decode)
-    - [Coveralls](#coveralls)
+    - [AOS](#Aos)
+    - [Google Fonts](#Google-fonts)
+    - [Font Awesome](#Font-awesome)
+    - [Google Analytics](#Google-analytics)
 
 # Scripts
 
@@ -28,16 +27,30 @@ Trackdrills is a web application that gives you access to over 500 workout and e
 
 `less-watch-compiler`: Runs and compiles the less files to css files in development.
 
-
-
 # Tech-Stack
 
-## Front End Dependencies `(Production)`
+## Dependencies
 
 ### Html
 
 React is the current industry standard that offers a lot of out of the box benefits. It is fast, efficient, and scalable. Due to the large community, finding solutions to potential problems and reference material is much easier, even for a potential dev without a lot of experience who would like to contribute to Main Course. | [View Dependency](https://reactjs.org/docs/getting-started.html)
 
 ### Less
+
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. | [View Dependency](https://graphql.org/)
+
+### AOS
+
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. | [View Dependency](https://graphql.org/)
+
+### Google Font
+
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. | [View Dependency](https://graphql.org/)
+
+### Font Awesome
+
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. | [View Dependency](https://graphql.org/)
+
+### Google Analytics
 
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. | [View Dependency](https://graphql.org/)
