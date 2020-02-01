@@ -33,7 +33,7 @@ Trackdrills is a web application that gives you access to over 500 workout and e
 
 ### Html
 
-React is the current industry standard that offers a lot of out of the box benefits. It is fast, efficient, and scalable. Due to the large community, finding solutions to potential problems and reference material is much easier, even for a potential dev without a lot of experience who would like to contribute to Main Course. | [View Dependency](https://reactjs.org/docs/getting-started.html)
+Html
 
 ### Less
 
