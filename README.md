@@ -18,6 +18,15 @@ Trackdrills is an application that gives you access to over 500 workouts and exe
 |                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Sandravaphilips)                   |                          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Leelsmuth)                           |                                                                                                                                    |
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/sandravaphilips)  |     [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/oluwafemi-anjorin)     |
 
+# Project Overview
+
+[Trello Board](https://trello.com/b/iTrFFYwu/labseu3-workout-tracker) <br>
+[Product Canvas](https://www.notion.so/EU3-Workout-Tracker-07d713eeab674a938ea65ce065462384) <br>
+[UX Design files](https://www.figma.com/file/r3J1gqHSg2Mci8tHb6vXdd/Trackdrills) <br>
+[Landing Page](https://trackdrills.com/) <br>
+[Application Page](https://app.trackdrills.com/) <br>
+[API](https://trackdrills.herokuapp.com/) <br>
+
 # Table of Contents
 
 - [Scripts](#scripts)
